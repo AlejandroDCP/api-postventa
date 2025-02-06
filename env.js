@@ -50,8 +50,8 @@ const JWT_PEM_PATH = './../keys/jwtRS256.pem';
 
 // URL de las APIs
 const API = {
-  // AUTH: 'http://172.19.2.101:5004/api/v1',
-  AUTH: 'http://localhost:5004/api/v1',
+  AUTH: 'http://172.19.2.101:5004/api/v1',
+  // AUTH: 'http://localhost:5004/api/v1',
   // EK: 'http://172.19.2.101:5005/api/v1',
   //EK: 'http://localhost:5005/api/v1',
 };
@@ -73,3 +73,10 @@ module.exports = {
   API,
 
 };
+
+
+
+
+
+
+
