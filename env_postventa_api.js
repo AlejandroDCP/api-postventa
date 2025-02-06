@@ -2,30 +2,30 @@
 const PORT = 5015;
 
 // Base de datos 
-// const DATABASE_CONFIG = {
-//   CONTABILIDAD: {
-//     HOST: '172.19.2.234',
-//     USER: 'biventas',
-//     PASSWORD: 'C4du#b1v120',
-//   },
-//   FACTURACION: {
-//     HOST: '172.19.2.234',
-//     USER: 'biventas',
-//     PASSWORD: 'C4du#b1v120',
-//   },
-// };
 const DATABASE_CONFIG = {
   CONTABILIDAD: {
-    HOST: '127.0.0.1',
-    USER: 'root',
-    PASSWORD: 'T00r.249/2022',
+    HOST: '172.19.2.234',
+    USER: 'biventas',
+    PASSWORD: 'C4du#b1v120',
   },
   FACTURACION: {
-    HOST: '127.0.0.1',
-    USER: 'root',
-    PASSWORD: 'T00r.249/2022',
+    HOST: '172.19.2.234',
+    USER: 'biventas',
+    PASSWORD: 'C4du#b1v120',
   },
 };
+// const DATABASE_CONFIG = {
+//   CONTABILIDAD: {
+//     HOST: '127.0.0.1',
+//     USER: 'root',
+//     PASSWORD: 'T00r.249/2022',
+//   },
+//   FACTURACION: {
+//     HOST: '127.0.0.1',
+//     USER: 'root',
+//     PASSWORD: 'T00r.249/2022',
+//   },
+// };
 // const DB = {
 //   LOGISTICA: 'logistica',
 //   ADMIN: 'admon_db',
