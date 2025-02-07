@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "prebuild": "del /s /q dist",
+    "prebuild": "rm -rfv dist",
     "build": "babel src -d dist",
     "prestart": "npm run build",
     "start": "node dist/clusterApp.js",
